@@ -7,7 +7,7 @@ Sobre el instrumento de percusión robótica y secuenciador de ritmos
 El ritmolón es un secuenciador de ritmos y sonidos (pero fundamentalmente golpes rítmicos)
 
 
-[![Una muestra del Ritmolón](https://img.youtube.com/vi/JDnHeRFszOw/0.jpg)](https://youtu.be/JDnHeRFszOw "Everything Is AWESOME")
+[![Una muestra del Ritmolón](https://img.youtube.com/vi/JDnHeRFszOw/0.jpg)](https://youtu.be/JDnHeRFszOw "Una muestra del Ritmolón")
 
 
 Se usa una placa arduino.
@@ -20,4 +20,4 @@ Obtenemos una linea de audio por cada uno de los objetos, y todas las lineas se 
 Por ultimo, a través de un portátil conectado a la placa, a través de la comunicación por serial, interactuamos con el instrumento: le cargamos los diferentes ritmos, añadimos modificaciones sobre éstos ritmos, pausamos todo, aumentamos/disminuimos la velocidad de ejecución del ritmo...
 He aquí algunas fotos 
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Ritmolon](img/rit_1.png "Ritmolon")
