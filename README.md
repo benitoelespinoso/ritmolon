@@ -48,21 +48,15 @@ La conexión de una solenoide es:
 
 Y vamos a suponer que tenemos 3 de estos solenoides, que vamos a llamar 
 
-* sol_k1
-* sol_g1
-* sol_a1
-
-Que se corresponden al tipo de sonido que obtenemos cuando el solenoide golpea el objeto en cuestión. Es decir:
-
 + sol_k1 = Es el Kick del Rimolón
 + sol_g1 = el grave
 + sol_a1 = el agudo
 
-Por ejemplo esto sería una muestra:
+Que se corresponden al tipo de sonido que obtenemos cuando el solenoide golpea el objeto en cuestión. Por ejemplo esto sería una muestra:
 
 
 
-Para montar el ritmolónn necesitamos tener las siguientes cosillas. 
+Para montar el ritmolón necesitamos tener las siguientes cosillas. 
 La **PART LIST** es:
 
 1. Arduino
