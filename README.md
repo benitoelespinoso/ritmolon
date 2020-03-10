@@ -71,7 +71,8 @@ La **PART LIST** es:
 
 
 
-
+La forma de montar esto es obvia. Solo es necesario soldar el diodo entre ambos cables del solenoide. Y conectarlo al modulo IRF.
+Posteriormente conectar el modulo al arduino. 
 
 
 ## FORMA
