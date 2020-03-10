@@ -13,11 +13,17 @@ El ritmolón es un secuenciador de ritmos y sonidos (pero fundamentalmente golpe
 Se usa una placa arduino.
 Se conectan solenoides.
 
-Estos solenoides suelen golpear objetos físicos, como altavoces, un latón grande, una botella, una caja de madera...
-Se colocan piezoeléctricos en todos éstos cacharros, y se recoge el sonido de cada golpe individualmente. 
-Obtenemos una linea de audio por cada uno de los objetos, y todas las lineas se reúnen en una mesa de mezcla. 
+Los solenoides suelen golpear objetos físicos: 
+* altavoces
+* latas, chapas metálicas
+* una botella
+* piezas de madera....
 
-Por ultimo, a través de un portátil conectado a la placa, a través de la comunicación por serial, interactuamos con el instrumento: le cargamos los diferentes ritmos, añadimos modificaciones sobre éstos ritmos, pausamos todo, aumentamos/disminuimos la velocidad de ejecución del ritmo...
+Estos objetos van provistos de piezoeléctrico. Así que se recoge el sonido de cada golpe individualmente. Se mezclan en una mesa. Y ya tenemos nuestro secuenciador rítmico.
+
 He aquí algunas fotos 
 
 ![Ritmolon](img/rit_1.png "Ritmolon")
+
+
+Por ultimo, a través de un portátil conectado a la placa, a través de la comunicación por serial, interactuamos con el instrumento: le cargamos los diferentes ritmos, añadimos modificaciones sobre éstos ritmos, pausamos todo, aumentamos/disminuimos la velocidad de ejecución del ritmo...
