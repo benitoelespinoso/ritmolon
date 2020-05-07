@@ -5,7 +5,7 @@ Sobre el instrumento de percusión robótica y secuenciador de ritmos
 
 El ritmolon es un secuenciador de ritmos que utiliza solenoides para golpear pequeños objetos, haciendo un ritmo o compás. A menudo estos objetos llevan adheridos unos micrófonos de contacto (piezo-electricos) así que la señal acústica se puede amplificar (o procesar) en la ejecución del ritmo.
 
-Es un proyecto de ARDUINO. 
+Es un proyecto hecho con **ARDUINO**. 
 
 Es fácil ejecutar ritmos "impares" o compuestos o simplemente en (por ejemplo) 17 tiempos. Cosa que en un secuenciador al uso simplemente no se puede. Si estás harto de que el número 4 te subyugue (cosa normal. También es muy tiránico el número 3) ésta puede ser una buena opción.  
 
