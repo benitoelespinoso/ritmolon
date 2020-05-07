@@ -1,25 +1,67 @@
-# ritmolon
+# RITMOLÓN
 Sobre el instrumento de percusión robótica y secuenciador de ritmos
 
 ## INTRO
 
+El ritmolon es un secuenciador de ritmos que utiliza solenoides para golpear pequeños objetos, haciendo un ritmo o compás. A menudo estos objetos llevan adheridos unos micrófonos de contacto (piezo-electricos) así que la señal acústica se puede amplificar (o procesar) en la ejecución del ritmo.
 
-El ritmolón es un secuenciador de ritmos y sonidos (pero fundamentalmente golpes rítmicos)
+Es un proyecto de ARDUINO. 
+
+Es fácil ejecutar ritmos "impares" o compuestos o simplemente en (por ejemplo) 17 tiempos. Cosa que en un secuenciador al uso simplemente no se puede. Si estás harto de que el número 4 te subyugue (cosa normal. También es muy tiránico el número 3) ésta puede ser una buena opción.  
+
+La forma de funcionar puede verse aquí:
+
+[![Ritmolón](https://img.youtube.com/vi/TF0EBw5WRiI/0.jpg)](https://youtu.be/JDnHeRFszOw "Una muestra del Ritmolón")
+
+# HOW TO
+
+Esto, como casi todo, tiene una parte física y otra metafísica
+
+## MATERIA
+
+Las partes son:
+
+- Arduino Uno.............................(x1)  
+- Módulo de Controlador MOSFET IRF520.....(x3)  
+- Cables Dupont...........................(x1)  
+- Piezo transductor (3 en 1)..............(x1)  
+- solenoide Tipo de empujar tirar.........(X3)  
+
+
+Tambien se necesitan objetos a golpear: madera, metal, una botella, la cajita-pastillero que ya no usas, una tapa de bote, un jarrillo de lata.....
+
+El diagrama de conexión es el que se muestra a continuación. Si tiene dudas usa el buscador, porque conectar y hacer funcionar un solenoide es más sencillo que coger un cubo por el asa.
+
+
+![Solenoide](img/conn_solenoide.png "Solenoide")
+
+En nuestro caso (el código) los solenoides están conectados a Digital PIN 2, 7 y 9.
+
+Puedes cambiar esta parte en el archivo *c_tema.h* para modificar éstos pines, si lo deseas:
+~~~
+const int sol_1 = 9;    // solenoide 1    
+const int sol_2 = 7;    // solenoide 2
+const int sol_3 = 2;    // solenoide 3
+~~~
+
+## FORMA
+
+El código está en el [directorio src](src)
+
+Descárgalo y súbelo al arduino con los solenoides conectados. En este ejemplo, una vez corriendo el código, se le envían las órdenes a través de *Monitor Serial*.
+
+En el teclado:
+
+ - 1, 2, 3, 4    Son los temas 1, 2, 3, 4  
+ - para cada tema: a, s, d, f   realiza una variante ó capa del ritmo  
+
+## ALGUNAS MUESTRAS
+
 
 
 [![Una muestra del Ritmolón](https://img.youtube.com/vi/JDnHeRFszOw/0.jpg)](https://youtu.be/JDnHeRFszOw "Una muestra del Ritmolón")
 
 
-Se usa una placa arduino.
-Se conectan solenoides.
-
-Los solenoides suelen golpear objetos físicos: 
-* altavoces
-* latas, chapas metálicas
-* una botella
-* piezas de madera....
-
-Estos objetos van provistos de piezoeléctrico. Así que se recoge el sonido de cada golpe individualmente. Se mezclan en una mesa. Y ya tenemos nuestro secuenciador rítmico.
 
 He aquí algunas fotos 
 
@@ -35,50 +77,3 @@ He aquí algunas fotos
 Aquí dejo enlazada otra muestra de cómo suena
 
 [![Otra muestra del Ritmolón](https://img.youtube.com/vi/xk5GeTDyXds/0.jpg)](https://www.youtube.com/watch?v=xk5GeTDyXds "Otra muestra del Ritmolón")
-
-
-
-## MATERIA
-
-Anteriormente dijimos que el ritmolon son solenoides que golpean objetos que se amplifican. 
-
-La conexión de una solenoide es:
-
-![Solenoide](img/conn_solenoide.png "Solenoide")
-
-Y vamos a suponer que tenemos 3 de estos solenoides, que vamos a llamar 
-
-+ sol_k1 = Es el Kick del Rimolón
-+ sol_g1 = el grave
-+ sol_a1 = el agudo
-
-Que se corresponden al tipo de sonido que obtenemos cuando el solenoide golpea el objeto en cuestión. Por ejemplo esto sería una muestra:
-
-
-
-Para montar el ritmolón necesitamos tener las siguientes cosillas. 
-La **PART LIST** es:
-
-1. Arduino
-2. Cables y alicates. 
-3. Soldador y estaño
-4. diodos (valdría el 1N4004 diode, también el 1N4001...) (x3)
-5. Módulo de Controlador MOSFET IRF520 (x3)
-	https://www.amazon.es/dp/B07191NYQH/ref=pe_3310721_185740151_TE_item
-6. Electroimán para solenoide de movimiento lineal (12 V, 0 9V) (x3)+
-7. Piezo transductor, Micrófono Contacto 3 en 1 & Endpin Jack 6mm
-	https://www.amazon.es/dp/B073ZDQ416/ref=pe_3310721_189395781_TE_SCE_dp_1
-
-
-
-La forma de montar esto es obvia. Solo es necesario soldar el diodo entre ambos cables del solenoide. Y conectarlo al modulo IRF.
-Posteriormente conectar el modulo al arduino. 
-
-
-## FORMA
-
-Subimos a través del IDE de arduino a la placa de el ritmolón ...
-
-y sacamos el <i>Monitor Serial</i>
-
-
