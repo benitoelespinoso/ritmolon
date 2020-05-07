@@ -80,7 +80,7 @@ He aquí algunas fotos
 
 
 
-Aquí dejo enlazada otra muestra de cómo suena
+Aquí dejo enlazada otro vídeo de cómo suena
 
 [![Otra muestra del Ritmolón](https://img.youtube.com/vi/xk5GeTDyXds/0.jpg)](https://www.youtube.com/watch?v=xk5GeTDyXds "Otra muestra del Ritmolón")
 
