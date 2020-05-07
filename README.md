@@ -11,7 +11,7 @@ Es fácil ejecutar ritmos "impares" o compuestos o simplemente en (por ejemplo) 
 
 La forma de funcionar puede verse aquí:
 
-[![Ritmolón](https://img.youtube.com/vi/TF0EBw5WRiI/0.jpg)](https://youtu.be/JDnHeRFszOw "Una muestra del Ritmolón")
+[![Ritmolón](https://img.youtube.com/vi/TF0EBw5WRiI/0.jpg)](https://youtu.be/TF0EBw5WRiI "Una muestra del Ritmolón")
 
 # HOW TO
 
