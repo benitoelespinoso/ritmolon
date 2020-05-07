@@ -70,13 +70,13 @@ https://brunelevsky.bandcamp.com/
 
 He aquí algunas fotos 
 
-![Ritmolon](img/rit1.png "Ritmolon")
+![Ritmolon](img/rit.1.png "Ritmolon")
 
-![Ritmolon](img/rit3.png "Ritmolon")
+![Ritmolon](img/rit.3.png "Ritmolon")
 
-![Ritmolon](img/rit3.png "Ritmolon")
+![Ritmolon](img/rit.3.png "Ritmolon")
 
-![Ritmolon](img/rit4.png "Ritmolon")
+![Ritmolon](img/rit.4.png "Ritmolon")
 
 
 
