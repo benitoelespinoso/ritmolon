@@ -17,7 +17,7 @@ La forma de funcionar puede verse aquí:
 
 Esto, como casi todo, tiene una parte física y otra metafísica
 
-## MATERIA
+## LA MATERIA
 
 Las partes son:
 
@@ -44,7 +44,7 @@ const int sol_2 = 7;    // solenoide 2
 const int sol_3 = 2;    // solenoide 3
 ~~~
 
-## FORMA
+## LA FORMA
 
 El código está en el [directorio src](src)
 
@@ -57,13 +57,34 @@ En el teclado:
 
 ## ALGUNAS MUESTRAS
 
-
-
 [![Una muestra del Ritmolón](https://img.youtube.com/vi/JDnHeRFszOw/0.jpg)](https://youtu.be/JDnHeRFszOw "Una muestra del Ritmolón")
 
+La música que suelo realizar basándome en alguna de los varias implementaciones que tengo de éste cacharro:
+
+https://vandermamasso.bandcamp.com/
+
+https://post4.bandcamp.com/
+
+https://brunelevsky.bandcamp.com/
 
 
 He aquí algunas fotos 
+
+![Ritmolon](img/rit1.png "Ritmolon")
+
+![Ritmolon](img/rit3.png "Ritmolon")
+
+![Ritmolon](img/rit3.png "Ritmolon")
+
+![Ritmolon](img/rit4.png "Ritmolon")
+
+
+
+Aquí dejo enlazada otra muestra de cómo suena
+
+[![Otra muestra del Ritmolón](https://img.youtube.com/vi/xk5GeTDyXds/0.jpg)](https://www.youtube.com/watch?v=xk5GeTDyXds "Otra muestra del Ritmolón")
+
+Más fotos:
 
 ![Ritmolon](img/rit_1.png "Ritmolon")
 
@@ -74,6 +95,3 @@ He aquí algunas fotos
 ![Ritmolon](img/rit_6.jpg "Ritmolon")
 
 
-Aquí dejo enlazada otra muestra de cómo suena
-
-[![Otra muestra del Ritmolón](https://img.youtube.com/vi/xk5GeTDyXds/0.jpg)](https://www.youtube.com/watch?v=xk5GeTDyXds "Otra muestra del Ritmolón")
